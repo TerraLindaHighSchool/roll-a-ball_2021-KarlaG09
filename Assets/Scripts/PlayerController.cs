@@ -56,6 +56,8 @@ public class PlayerController : MonoBehaviour
 			// Run the 'SetCountText()' function (see below)
 			SetCountText();
 		}
+
+      
 	}
 
 	void OnMove(InputValue value)
@@ -77,5 +79,4 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 }
-
 

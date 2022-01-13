@@ -21,4 +21,9 @@ public class BallManager : MonoBehaviour
             Score2 += 1;
         }
     }
+    public void Update()
+    {
+        GameObject.Find("Score1").GetComponent<TextMesh>().text = Score1 + "";
+        GameObject.Find("Score2").GetComponent<TextMesh>().text = Score2 + "";
+    }
 }
